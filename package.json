@@ -1,0 +1,32 @@
+{
+  "name": "sales-order-backend",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cds watch",
+    "start": "cds-serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeFadil/sales-order-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FelipeFadil/sales-order-backend/issues"
+  },
+  "homepage": "https://github.com/FelipeFadil/sales-order-backend#readme",
+  "dependencies": {
+    "@sap/cds": "^9.9.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@cap-js/cds-types": "^0.8.0",
+    "@cap-js/sqlite": "^1",
+    "git-commit-msg-linter": "^5.0.8"
+  }
+}
